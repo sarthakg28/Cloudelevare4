@@ -649,15 +649,22 @@ footer {
 
   /* Services Section */
   
-  .cont01 {
+   .cont01 {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
   }
   
   .sarthak {
-    /* width: ; */
-    margin: 10px;
-    height:180px
+    width: calc(50% - 40px); /* Set width to 50% for two items in a row */
+    margin: 20px; /* Adjust margin */
+    background-color: #00040F;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
   }
 
   .img3 img {
@@ -732,6 +739,16 @@ footer {
   }
   .footer-container p{
     font-size: 14px;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-middle{
+    margin-top: 20px;
+  }
+  .footer-right{
+    margin-top: 20px;
   }
 
   .partner-logos img {
